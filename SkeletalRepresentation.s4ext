@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl git://github.com/KitwareMedical/SlicerVirtualReality.git
-scmrevision master
+scmurl https://github.com/KitwareMedical/SlicerSkeletalRepresentation.git
+scmrevision 529b95b
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,30 +15,30 @@ scmrevision master
 depends NA
 
 # Inner build directory (default is ".")
-build_subdirectory inner-build
+build_subdirectory .
 
 # homepage
-homepage http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerVirtualReality
+homepage https://github.com/KitwareMedical/SlicerSkeletalRepresentation/blob/master/README.md
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Jean-Baptiste Vimort (Kitware), Jean-Christophe Fillion-Robin (Kitware), Csaba Pinter (PerkLab, Queen's University)
+contributors Zhiyuan Liu (University of North Carolina at Chapel Hill), Junpyo Hong (University of North Carolina at Chapel Hill), Stephen M. Pizer (University of North Carolina at Chapel Hill), Jared Vicory (Kitware, Inc.), Pablo Hernandez-Cerdan (Kitware, Inc.), Beatriz Paniagua (Kitware, Inc.), Jean-Christophe Fillion-Robin (Kitware, Inc.)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Virtual Reality
+category Topology, Skeletonization
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerVirtualReality/master/SlicerVirtualReality.png
+iconurl https://raw.githubusercontent.com/KitwareMedical/SlicerSkeletalRepresentation/master/SkeletalRepresentation.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status
+status 
 
 # One line stating what the module does
-description Allows user to interact with a Slicer scene using virtual reality.
+description Toolkit that provides users to establish, refine, and visualize skeletal representation of an object.
 
 # Space separated list of urls
-screenshoturls https://www.slicer.org/w/images/4/49/SlicerVirtualReality_Screenshot1.png https://www.slicer.org/w/images/0/04/SlicerVirtualReality_Screenshot2.png
+screenshoturls https://cdn.rawgit.com/KitwareMedical/SlicerSkeletalRepresentation/529b95bc/VisualizationScreenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1
